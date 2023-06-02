@@ -9,6 +9,7 @@ namespace MagicVilla_API.Modelos
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string Nombre { get; set; }
+<<<<<<< Updated upstream
         public string Detalle { get; set; }
         [Required]
         public double Tarifa { get; set; }
@@ -18,5 +19,8 @@ namespace MagicVilla_API.Modelos
         public string Amenidad { get; set; }
         public DateTime FechaCreacion { get; set; }
         public DateTime FechaActualizacion { get; set; }
+=======
+        public DateTime FechaCreacion { get; set; }
+>>>>>>> Stashed changes
     }
 }

@@ -185,25 +185,9 @@ namespace MagicVilla_API.Controllers
 
             if (!ModelState.IsValid) 
             {
-                return BadRequest(ModelState);
-            }
-
-            Villa model = new Villa { 
-                Tarifa = villaDto.Tarifa,
-                Nombre = villaDto.Nombre,
-                MetrosCuadrados = villaDto.MetrosCuadrados,
-                ImagenUrl = villaDto.ImagenUrl,
-                Id = villaDto.Id,
-                Amenidad = villaDto.Amenidad,
-                Detalle = villaDto.Detalle,
-                FechaActualizacion = DateTime.Now,
-                Ocupantes = villaDto.Ocupantes
+                new Villa { Id = 1, Nombre = "Vista a la Piscina" },
+                new Villa { Id = 2, Nombre = "Vista a la Playa" }
             };
-
-            _db.Villas.Update(model);
-            _db.SaveChanges();
-
-            return NoContent();
         }
     }
 }

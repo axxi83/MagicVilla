@@ -2,7 +2,6 @@
   "version": 3,
   "targets": {
     "net7.0": {
-<<<<<<< Updated upstream
       "Azure.Core/1.24.0": {
         "type": "package",
         "dependencies": {
@@ -60,8 +59,6 @@
           }
         }
       },
-=======
->>>>>>> Stashed changes
       "Microsoft.AspNetCore.JsonPatch/7.0.5": {
         "type": "package",
         "dependencies": {
@@ -119,7 +116,6 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-<<<<<<< Updated upstream
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -131,8 +127,6 @@
           }
         }
       },
-=======
->>>>>>> Stashed changes
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -142,7 +136,6 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-<<<<<<< Updated upstream
       "Microsoft.Data.SqlClient/5.0.1": {
         "type": "package",
         "dependencies": {
@@ -319,8 +312,6 @@
           "lib/net6.0/_._": {}
         }
       },
-=======
->>>>>>> Stashed changes
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -683,7 +674,6 @@
           }
         }
       },
-<<<<<<< Updated upstream
       "Microsoft.SqlServer.Server/1.0.0": {
         "type": "package",
         "compile": {
@@ -754,8 +744,6 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
-=======
->>>>>>> Stashed changes
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -1321,7 +1309,6 @@
     }
   },
   "libraries": {
-<<<<<<< Updated upstream
     "Azure.Core/1.24.0": {
       "sha512": "+/qI1j2oU1S4/nvxb2k/wDsol00iGf1AyJX5g3epV7eOpQEP/2xcgh/cxgKMeFgn3U2fmgSiBnQZdkV+l5y0Uw==",
       "type": "package",
@@ -1378,8 +1365,6 @@
         "logo.png"
       ]
     },
-=======
->>>>>>> Stashed changes
     "Microsoft.AspNetCore.JsonPatch/7.0.5": {
       "sha512": "WTD0lUlrQEHF0eWlnwJJgBYK1WDI2KHeCLi46YY0mTOebwg+58l/lj+A3EerwC0aMyTB/yLaamjkCRRDVupCeA==",
       "type": "package",
@@ -1429,7 +1414,6 @@
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
-<<<<<<< Updated upstream
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -1455,8 +1439,6 @@
         "version.txt"
       ]
     },
-=======
->>>>>>> Stashed changes
     "Microsoft.CSharp/4.7.0": {
       "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
@@ -1526,7 +1508,6 @@
         "version.txt"
       ]
     },
-<<<<<<< Updated upstream
     "Microsoft.Data.SqlClient/5.0.1": {
       "sha512": "uu8dfrsx081cSbEevWuZAvqdmANDGJkbLBL2G3j0LAZxX1Oy8RCVAaC4Lcuak6jNicWP6CWvHqBTIEmQNSxQlw==",
       "type": "package",
@@ -1715,8 +1696,6 @@
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
-=======
->>>>>>> Stashed changes
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "sha512": "Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
       "type": "package",
@@ -2492,7 +2471,6 @@
         "microsoft.openapi.nuspec"
       ]
     },
-<<<<<<< Updated upstream
     "Microsoft.SqlServer.Server/1.0.0": {
       "sha512": "N4KeF3cpcm1PUHym1RmakkzfkEv3GRMyofVv40uXsQhCQeglr2OHNcUk2WOG51AKpGO8ynGpo9M/kFXSzghwug==",
       "type": "package",
@@ -2596,8 +2574,6 @@
         "mono.texttemplating.nuspec"
       ]
     },
-=======
->>>>>>> Stashed changes
     "Newtonsoft.Json/13.0.1": {
       "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "type": "package",
@@ -4183,5 +4159,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file E:\\Desarrollo\\curso web api net 7\\MagicVilla\\MagicVilla_API\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
